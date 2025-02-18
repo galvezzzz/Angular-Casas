@@ -21,4 +21,8 @@ export class HousingService {
   submitApplication(firstName: string, lastName: string, email: string) {
     console.log(firstName, lastName, email);
   }
+
+  aceptar(nombre: string, apellidos: string, edad: string, email: string){
+    console.log(nombre, apellidos,edad, email);
+  }
 }

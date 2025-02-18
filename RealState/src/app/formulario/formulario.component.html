@@ -1,0 +1,18 @@
+<form [formGroup]="applyForm" (submit)="aceptar()">
+    <label for="nombre">Nombre de usuario</label>
+    <input id="nombre" type="text" formControlName="nombre">
+
+    <label for="apellidos">Apellidos</label>
+    <input id="apellidos" type="text" formControlName="apellidos">
+
+    <label for="edad">Edad</label>
+    <input id="edad" type="text" formControlName="edad">
+
+    <label for="email">Email</label>
+    <input id="email" type="email" formControlName="email">
+    <input type="checkbox">
+    <button type="submit" class="primary">Apply now</button>
+</form>
+<app-formulario>
+    
+</app-formulario>
